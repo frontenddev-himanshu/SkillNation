@@ -28,6 +28,16 @@ body {
     padding: 10px 10rem;
     background-color: var(--bg-);
     position: relative;
+    transition: .5s all;
+}
+
+.navBar.on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0px 0px 10px #00000095;
+    transition: .5s all;
 }
 
 .navWrapper {
@@ -304,4 +314,66 @@ body {
     border-radius: 50%;
     transform: translateX(100px);
     box-shadow: -15px -15px 0px var(--hero-heading-);
+}
+
+
+/* loader */
+.loader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #212121da;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-main {
+    width: 45px;
+    height: 40px;
+    background: linear-gradient(#0000 calc(1*100%/6), #fff 0 calc(3*100%/6), #0000 0),
+        linear-gradient(#0000 calc(2*100%/6), #fff 0 calc(4*100%/6), #0000 0),
+        linear-gradient(#0000 calc(3*100%/6), #fff 0 calc(5*100%/6), #0000 0);
+    background-size: 10px 400%;
+    background-repeat: no-repeat;
+    animation: matrix 1s infinite linear;
+}
+
+@keyframes matrix {
+    0% {
+        background-position: 0% 100%, 50% 100%, 100% 100%
+    }
+
+    100% {
+        background-position: 0% 0%, 50% 0%, 100% 0%
+    }
+}
+
+/* cursor */
+#cursor {
+    width: 30px;
+    height: 30px;
+    outline: 2px solid #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+    position: fixed;
+    z-index: 1111;
+    mix-blend-mode: difference;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dought {
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
 }
