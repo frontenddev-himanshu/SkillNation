@@ -4,9 +4,13 @@
         padding: 20px 3rem;
     }
 
-    .heroBgl,
+    .heroBg,
     .skillCouncil {
         padding: 0 3rem;
+    }
+
+    .purposeWrapper {
+        padding-left: 5rem;
     }
 }
 
@@ -124,6 +128,37 @@
     .skillBtn a {
         padding: 10px 30px;
         font-size: .8rem;
+    }
+
+    .purposeContainer {
+        padding: 50px 0;
+    }
+
+    .purposeWrapper {
+        padding-left: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0 2rem;
+        gap: 20px;
+    }
+
+    .purposeImg img {
+        width: 250px;
+        height: 250px;
+        transform: translateX(0);
+        box-shadow: -10px -10px 0px var(--hero-heading-);
+    }
+
+    .purposeContent {
+        width: 100%;
+    }
+
+    .purposeContent h2 {
+        font-size: 1.5rem;
+    }
+
+    .purposeContent ul li {
+        font-size: .9rem;
     }
 
 }
@@ -246,6 +281,28 @@
 
     .skillCouncilWrapper {
         padding: 3rem 0;
+    }
+
+    .purposeWrapper {
+        padding: 0 2rem;
+    }
+
+    .purposeImg img {
+        width: 150px;
+        height: 150px;
+        box-shadow: -5px -5px 0px var(--hero-heading-);
+    }
+
+    .purposeContent h2 {
+        font-size: 1.1rem;
+    }
+
+    .purposeContent ul li {
+        font-size: .7rem;
+    }
+
+    .purposeContainer {
+        padding: 40px 0;
     }
 
 }

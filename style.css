@@ -12,6 +12,7 @@
     --transition-: .2s all;
     --hover-color-: #1e5079;
     --hero-heading-: #fe8300;
+    --purpose-bg-: #000837;
 }
 
 html,
@@ -176,6 +177,7 @@ body {
     object-fit: cover;
 }
 
+/* about media page */
 .skillCouncil {
     width: 100%;
     padding: 0 10rem;
@@ -251,4 +253,55 @@ body {
     letter-spacing: 2px;
     font-size: .9rem;
     padding: 15px 40px;
+}
+
+/* purpose page */
+.purposeContainer {
+    width: 100%;
+    background-color: var(--purpose-bg-);
+    padding: 80px 0;
+    overflow-x: hidden;
+}
+
+.purposeWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.purposeContent {
+    width: 50%;
+}
+
+.purposeContent h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--bg-);
+}
+
+.purposeContent ul li {
+    font-size: 1rem;
+    color: var(--bg-);
+    margin: 20px 0;
+}
+
+.lastList {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.purposeImg {
+    width: fit-content;
+    height: 100%;
+}
+
+.purposeImg img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: translateX(100px);
+    box-shadow: -15px -15px 0px var(--hero-heading-);
 }
