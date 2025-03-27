@@ -4,6 +4,9 @@
         padding: 20px 3rem;
     }
 
+    .heroBg {
+        padding: 0 3rem;
+    }
 }
 
 
@@ -51,6 +54,28 @@
         width: 200px;
     }
 
+    .heroHeading::after {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .heroHeading h1 {
+        font-size: 3rem;
+        line-height: 60px;
+        padding: 35px;
+    }
+
+    .heroContent p {
+        padding: 30px;
+        font-size: 1rem;
+    }
+
+    .heroLogo {
+        width: 150px;
+        height: 70px;
+    }
+
 }
 
 
@@ -60,6 +85,10 @@
 
     .navBar {
         padding: 15px 1rem;
+    }
+
+    .heroWrapper {
+        padding: 0 1rem;
     }
 
     .logo {
@@ -80,6 +109,45 @@
 
     .navLinks ul {
         gap: 10px;
+    }
+
+    .heroHeading::after {
+        width: 160px;
+        height: 160px;
+    }
+
+    .heroLogo {
+        width: 80px;
+        height: 40px;
+        position: absolute;
+        right: -30px;
+        top: -10px;
+    }
+
+    .heroWrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroContent {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .heroHeading h1 {
+        font-size: 1.6rem;
+        line-height: 35px;
+        padding: 25px;
+    }
+
+    .heroContent p {
+        padding: 20px;
+        font-size: .9rem;
+        width: 100%;
+    }
+
+    .heroBg {
+        height: 50vh;
     }
 
 }

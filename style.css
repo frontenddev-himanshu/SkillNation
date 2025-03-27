@@ -11,6 +11,7 @@
     --color-: #000000;
     --transition-: .2s all;
     --hover-color-: #1e5079;
+    --hero-heading-: #fe8300;
 }
 
 html,
@@ -23,7 +24,7 @@ body {
 .navBar {
     width: 100%;
     height: fit-content;
-    padding: 20px 10rem;
+    padding: 10px 10rem;
     background-color: var(--bg-);
     position: relative;
 }
@@ -86,4 +87,91 @@ body {
 
 .homeLink {
     color: var(--hover-color-) !important;
+}
+
+/* hero section */
+.heroBg {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./Assest/heroBg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 10rem;
+    position: relative;
+    z-index: 1;
+}
+
+.heroBg::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000063;
+    z-index: -1;
+}
+
+.heroWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.heroHeading {
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+}
+
+.heroHeading::after {
+    content: "";
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--hover-color-);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.heroHeading h1 {
+    width: fit-content;
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: var(--hero-heading-);
+    text-shadow: 5px 5px 0px var(--color-);
+    line-height: 80px;
+}
+
+.heroContent p {
+    color: var(--bg-);
+    font-size: 1.3rem;
+    width: 60%;
+    padding: 50px;
+}
+
+.heroContent {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroLogo {
+    height: 100px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.heroLogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
