@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-: #ffffff;
+    --color-: #000000;
+    --transition-: .2s all;
+    --hover-color-: #1e5079;
+}
+
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navBar {
+    width: 100%;
+    height: fit-content;
+    padding: 20px 10rem;
+    background-color: var(--bg-);
+    position: relative;
+}
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navLinks ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navLinks ul li a {
+    text-decoration: none;
+    color: var(--color-);
+    width: fit-content;
+    transition: var(--transition-);
+}
+
+.hHomeLine {
+    width: 100%;
+    height: 1px;
+    background-color: var(--hover-color-);
+    transition: var(--transition-)
+}
+
+.hLine {
+    width: 0%;
+    height: 1px;
+    background-color: var(--color-);
+    transition: var(--transition-)
+}
+
+.navLinks ul li a:hover {
+    color: var(--hover-color-);
+}
+
+.navLinks ul li:hover .hLine {
+    width: 100%;
+    background-color: var(--hover-color-);
+}
+
+.homeLink {
+    color: var(--hover-color-) !important;
+}
