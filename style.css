@@ -184,6 +184,9 @@ body {
 .skillCouncilWrapper {
     width: 100%;
     position: relative;
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
 }
 
 .upperHead {
@@ -204,4 +207,48 @@ body {
 .upperHead h2 {
     font-size: 2rem;
     text-transform: capitalize;
+}
+
+.skillImg {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+
+.skillImg img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skillMediaContent {
+    margin-left: 5rem;
+}
+
+.skillMediaContent h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--hover-color-);
+}
+
+.skillMediaContent p {
+    font-size: 1rem;
+    color: var(--color-);
+    margin-top: 20px;
+}
+
+.skillBtn {
+    margin-top: 40px;
+}
+
+.skillBtn a {
+    text-decoration: none;
+    background-color: var(--color-);
+    color: var(--bg-);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .9rem;
+    padding: 15px 40px;
 }

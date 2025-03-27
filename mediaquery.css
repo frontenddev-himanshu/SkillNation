@@ -4,7 +4,8 @@
         padding: 20px 3rem;
     }
 
-    .heroBgl, .skillCouncil {
+    .heroBgl,
+    .skillCouncil {
         padding: 0 3rem;
     }
 }
@@ -80,13 +81,49 @@
         padding: 0 1rem;
     }
 
-    .upperHead h2  {
+    .upperHead h2 {
         font-size: 1.2rem;
     }
 
     .upperHead {
         height: 50px;
         top: -25px;
+    }
+
+
+    .skillCouncilWrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .skillImg img {
+        width: 300px;
+    }
+
+    .skillMediaContent h2 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+
+    .skillMediaContent p {
+        text-align: center;
+        padding: 0 5rem;
+        font-size: .9rem;
+    }
+
+    .skillMediaContent {
+        margin-left: 0;
+    }
+
+    .skillBtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skillBtn a {
+        padding: 10px 30px;
+        font-size: .8rem;
     }
 
 }
@@ -100,7 +137,7 @@
         padding: 15px 1rem;
     }
 
- 
+
 
     .logo {
         width: 140px;
@@ -175,6 +212,40 @@
 
     .upperHead h2 {
         font-size: .6rem;
+    }
+
+    .skillImg img {
+        width: 150px;
+    }
+
+    .skillMediaContent h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+
+    .skillMediaContent p {
+        text-align: center;
+        padding: 0 1rem;
+        font-size: .6rem;
+    }
+
+    .skillMediaContent {
+        margin-left: 0;
+    }
+
+    .skillBtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skillBtn a {
+        padding: 10px 30px;
+        font-size: .6rem;
+    }
+
+    .skillCouncilWrapper {
+        padding: 3rem 0;
     }
 
 }
