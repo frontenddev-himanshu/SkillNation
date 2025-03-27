@@ -175,3 +175,33 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+.skillCouncil {
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.skillCouncilWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.upperHead {
+    width: 70%;
+    height: 80px;
+    color: var(--bg-);
+    background-color: var(--hover-color-);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperHead h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
