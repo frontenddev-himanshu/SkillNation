@@ -377,3 +377,34 @@ body {
     background-color: #ffffff;
     border-radius: 50%;
 }
+
+
+
+/* type courses */
+.typeCourse {
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.coursesWrapper {
+    width: 100%;
+}
+
+.coursesHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.coursesText {
+    font-size: 1.8rem;
+    color: var(--color-);
+    text-transform: capitalize;
+}
+
+.sideLine {
+    width: 50px;
+    height: 3px;
+    background-color: palevioletred;
+}

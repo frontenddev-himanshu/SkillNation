@@ -5,7 +5,7 @@
     }
 
     .heroBg,
-    .skillCouncil {
+    .skillCouncil, .typeCourse {
         padding: 0 3rem;
     }
 
@@ -161,6 +161,20 @@
         font-size: .9rem;
     }
 
+    
+    #cursor {
+        display: none;
+    }
+
+    .typeCourse {
+        padding: 0 2rem;
+    }
+
+    .coursesText {
+        font-size: 1.2rem;
+    }
+
+
 }
 
 
@@ -303,6 +317,24 @@
 
     .purposeContainer {
         padding: 40px 0;
+    }
+
+    #cursor {
+        display: none;
+    }
+
+    .coursesHeader {
+        gap: 10px;
+    }
+
+    .coursesText {
+        font-size: .9rem;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .sideLine {
+        height: 2px;
     }
 
 }
