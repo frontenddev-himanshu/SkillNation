@@ -96,7 +96,7 @@
     }
 
     .navLinks {
-        top: 7vh;
+        top: 7.2vh;
     }
 
     .line {
@@ -125,7 +125,6 @@
     }
 
     .heroWrapper {
-        justify-content: center;
         align-items: center;
     }
 
@@ -141,7 +140,7 @@
     }
 
     .heroContent p {
-        padding: 20px;
+        padding: 10px;
         font-size: .9rem;
         width: 100%;
     }
