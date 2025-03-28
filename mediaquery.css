@@ -5,12 +5,17 @@
     }
 
     .heroBg,
-    .skillCouncil, .typeCourse {
+    .skillCouncil,
+    .typeCourse {
         padding: 0 3rem;
     }
 
     .purposeWrapper {
         padding-left: 5rem;
+    }
+
+    .typeCourse {
+        padding: 80px 3rem;
     }
 }
 
@@ -161,7 +166,7 @@
         font-size: .9rem;
     }
 
-    
+
     #cursor {
         display: none;
     }
@@ -172,6 +177,37 @@
 
     .coursesText {
         font-size: 1.2rem;
+    }
+
+    .typeCourse {
+        padding: 50px 2rem;
+    }
+
+    .courseText h2 {
+        font-size: 1.2rem;
+    }
+
+    .courseText p {
+        font-size: .9rem;
+    }
+
+
+    .coursesText {
+        font-size: 1.5rem;
+    }
+
+    .courseContent {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contentRow {
+        width: 100%;
+    }
+
+    .contentIcone img  {
+        width: 110px;
+        height: 110px;
     }
 
 
@@ -269,14 +305,14 @@
 
     .skillMediaContent h2 {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
 
     .skillMediaContent p {
         text-align: center;
         padding: 0 1rem;
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     .skillMediaContent {
@@ -290,7 +326,7 @@
 
     .skillBtn a {
         padding: 10px 30px;
-        font-size: .6rem;
+        font-size: .7rem;
     }
 
     .skillCouncilWrapper {
@@ -336,5 +372,36 @@
     .sideLine {
         height: 2px;
     }
+
+    .contentIcone img  {
+        width: 80px;
+        height: 80px;
+    }
+
+    .courseText h2 {
+        font-size: 1rem;
+    }
+
+    .courseText p {
+        font-size: .7rem;
+    }
+
+
+    .coursesText {
+        font-size: 1rem;
+    }
+
+    .typeCourse {
+        padding: 50px 1rem;
+    }
+
+    .borderBig {
+        width: 90%;
+    }
+
+    .borderSmall {
+        width: 8%;
+    }
+
 
 }

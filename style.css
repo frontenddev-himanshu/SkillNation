@@ -19,6 +19,7 @@ html,
 body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    background-color: var(--bg-);
 }
 
 /* navbar */
@@ -230,7 +231,7 @@ body {
 
 
 .skillImg img {
-    width: 500px;
+    width: 600px;
     height: 100%;
     object-fit: cover;
 }
@@ -383,7 +384,7 @@ body {
 /* type courses */
 .typeCourse {
     width: 100%;
-    padding: 0 10rem;
+    padding: 80px 10rem;
 }
 
 .coursesWrapper {
@@ -407,4 +408,59 @@ body {
     width: 50px;
     height: 3px;
     background-color: palevioletred;
+}
+
+.courseContent {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentRow {
+    width: 45%;
+    height: fit-content;
+}
+
+.upperBorderBox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.borderSmall {
+    width: 50px;
+    height: 3px;
+    background-color: palevioletred;
+}
+
+.borderBig {
+    width: 92%;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 0.476);
+}
+
+.contentIcone img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.aboutContent {
+    display: flex;
+    gap: 50px;
+}
+
+.secContentBox {
+    margin-top: 50px;
+}
+
+.courseText h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.courseText p {
+    font-size: 1rem;
 }
