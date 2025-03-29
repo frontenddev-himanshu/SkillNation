@@ -17,6 +17,14 @@
     .typeCourse {
         padding: 80px 3rem;
     }
+
+    .skillDevContainer {
+        padding: 60px 3rem;
+    }
+
+    .mediaContainer {
+        padding: 80px 3rem;
+    }
 }
 
 
@@ -218,6 +226,54 @@
         height: 110px;
     }
 
+    .allSkills ul li {
+        font-size: .9rem;
+    }
+
+    .skillDevContainer {
+        padding: 60px 2rem;
+    }
+
+    .mediaContainer {
+        justify-content: start;
+        padding: 60px 2rem;
+    }
+
+    .mediaWrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .mediaContent {
+        border: none;
+    }
+
+    .mediaContent h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+
+    .mediaContent h2 {
+        font-size: 1.3rem;
+    }
+
+    .courseName h2 {
+        font-size: 1.1rem;
+    }
+
+    .courseName::after {
+        width: 40px;
+        height: 2px;
+    }
+
+    .aboutMediaCourses {
+        margin: 0;
+    }
+
+    .mediaCourse img {
+        height: 50px;
+        width: 50px;
+    }
 
 }
 
@@ -413,6 +469,57 @@
 
     .borderSmall {
         width: 8%;
+    }
+
+
+    .allSkills ul li {
+        border: none;
+        padding: 0;
+        font-size: .7rem;
+    }
+
+    .allSkills ul {
+        flex-direction: column;
+    }
+
+    .skillDevContainer {
+        padding: 50px 1rem;
+    }
+
+
+    .mediaContent h1 {
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+
+    .mediaContent h2 {
+        font-size: 1rem;
+    }
+
+    .courseName h2 {
+        font-size: .9rem;
+    }
+
+    .courseName::after {
+        width: 35px;
+        height: 1px;
+    }
+
+    .aboutMediaCourses {
+        margin: 0;
+    }
+
+    .mediaCourse img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tranMeda {
+        transform: translateX(0px);
+    }
+
+    .midTrans {
+        transform: translateX(0px);
     }
 
 
