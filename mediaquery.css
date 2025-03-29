@@ -166,8 +166,9 @@
     .purposeImg img {
         width: 250px;
         height: 250px;
+        border-radius: 0%;
         transform: translateX(0);
-        box-shadow: -10px -10px 0px var(--hero-heading-);
+        box-shadow: -8px -8px 0px var(--hero-heading-);
     }
 
     .purposeContent {
@@ -273,6 +274,10 @@
     .mediaCourse img {
         height: 50px;
         width: 50px;
+    }
+
+    .aboutContent {
+        gap: 30px;
     }
 
 }
