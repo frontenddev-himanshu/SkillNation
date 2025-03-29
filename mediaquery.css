@@ -27,6 +27,10 @@
     .navBar {
         padding: 20px 2rem;
         z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 0px 5px #0000005e;
     }
 
     .navLinks {
@@ -67,6 +71,10 @@
     .heroHeading::after {
         width: 250px;
         height: 250px;
+    }
+
+    .heroBg {
+        margin-top: 9.4vh;
     }
 
 
@@ -205,7 +213,7 @@
         width: 100%;
     }
 
-    .contentIcone img  {
+    .contentIcone img {
         width: 110px;
         height: 110px;
     }
@@ -238,6 +246,10 @@
 
     .navLinks ul li a {
         font-size: .8rem;
+    }
+
+    .heroBg {
+        margin-top: 7vh;
     }
 
     .navLinks ul {
@@ -373,7 +385,7 @@
         height: 2px;
     }
 
-    .contentIcone img  {
+    .contentIcone img {
         width: 80px;
         height: 80px;
     }

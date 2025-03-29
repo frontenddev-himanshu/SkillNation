@@ -16,20 +16,6 @@ ham.addEventListener("click", () => {
 
 })
 
-let navJump = document.querySelector(".navBar");
-
-window.addEventListener("scroll", function () {
-
-    if (this.window.pageYOffset > 100) {
-        navJump.classList.add("on");
-    }
-
-    else {
-        navJump.classList.remove("on")
-    }
-
-})
-
 
 // loader
 let randomTime = Math.floor(Math.random() * 3000) + 3000;

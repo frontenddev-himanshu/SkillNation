@@ -13,6 +13,8 @@
     --hover-color-: #1e5079;
     --hero-heading-: #fe8300;
     --purpose-bg-: #000837;
+    --skill-dev-: #e3f2ff;
+    --sec-color: #403d3d;
 }
 
 html,
@@ -28,16 +30,6 @@ body {
     height: fit-content;
     padding: 10px 10rem;
     background-color: var(--bg-);
-    position: relative;
-    transition: .5s all;
-}
-
-.navBar.on {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    box-shadow: 0px 0px 10px #00000095;
     transition: .5s all;
 }
 
@@ -463,4 +455,119 @@ body {
 
 .courseText p {
     font-size: 1rem;
+}
+
+
+/* skill  development */
+.skillDevContainer {
+    width: 100%;
+    padding: 50px 10rem;
+    background-color: var(--skill-dev-);
+}
+
+.allSkills {
+    margin-top: 30px;
+}
+
+.allSkills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.allSkills ul li {
+    font-size: 1rem;
+    color: var(--sec-color);
+    text-transform: uppercase;
+    height: fit-content;
+    width: fit-content;
+    border-left: 2px solid var(--sec-color);
+    line-height: 16px;
+    padding-left: 20px;
+ 
+}
+
+.firstSkill {
+    border: none !important;
+}
+
+
+
+/* media */
+.mediaContainer {
+    width: 100%;
+    padding: 80px 10rem;
+    background-color: #000837;
+    display: flex;
+    justify-content: center;
+}
+
+.mediaWrapper {
+    display: flex;
+}
+
+.mediaContent {
+    border-right:  2px solid var(--sec-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.mediaContent h1 {
+    font-size: 3rem;
+    color: var(--bg-);
+    line-height: 60px;
+}
+
+.mediaContent h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--hero-heading-);
+    margin-top: 10px;
+}
+
+.mediaCourse {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.mediaCourse img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.aboutMediaCourses {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMediaCourses a{
+    text-decoration: none;
+}
+
+.courseName h2 {
+    color: var(--bg-);
+}
+.courseName {
+    position: relative;
+}
+
+.courseName::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: var(--bg-);
+    top: 50%;
+    transform: translateY(-50%);
+    left: -70px;
+    z-index: 1;
 }
