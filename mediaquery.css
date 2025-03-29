@@ -293,6 +293,10 @@
         height: 200px;
     }
 
+    .flip-card-front {
+        padding: 15px;
+    }
+
 
 }
 
