@@ -15,6 +15,7 @@
     --purpose-bg-: #000837;
     --skill-dev-: #e3f2ff;
     --sec-color: #403d3d;
+    --mesc-text-bg: #e3f2ff;
 }
 
 html,
@@ -27,13 +28,16 @@ body {
 /* navbar */
 .navBar {
     width: 100%;
-    height: fit-content;
-    padding: 10px 10rem;
+    height: 9vh;
+    padding: 0px 10rem;
     background-color: var(--bg-);
     transition: .5s all;
+    display: flex;
+    align-items: center;
 }
 
 .navWrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -780,4 +784,122 @@ body {
 
 .action:hover span {
     transform: translateX(4px);
+}
+
+
+
+/* mesc */
+
+.mescFacility {
+    padding: 80px 10rem;
+    width: 100%;
+}
+
+.mescWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mescRow {
+    width: 45%;
+}
+
+.mescContent {
+    background-color: var(--mesc-text-bg);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+
+.mescRow h2 {
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.mescText p {
+    color: var(--color-);
+}
+
+.mescIcone i {
+    background-color: var(--bg-);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #a1d3ff;
+}
+
+.aboutMesc {
+    margin-top: 40px;
+}
+
+.mescRow img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+
+
+
+/* benefits */
+
+.benefitContainer {
+    width: 100%;
+    padding: 0px 10rem;
+}
+
+.benefitWrapper {
+    width: 100%;
+    background: url(https://imgv3.fotor.com/images/share/Free-blue-gradient-pattern-background-from-Fotor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.benefitWrapper::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.351);
+}
+
+.benefitsHeader {
+    display: flex;
+    justify-content: center;
+
+}
+
+.benefitsHeader h2 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    width: 40%;
+    color: var(--bg-);
+    border-bottom: 2px solid var(--hero-heading-);
+    padding-bottom: 20px;
+}
+
+.aboutBenefits {
+    margin-top: 20px;
+}
+
+.aboutBenefits ul {
+    list-style: none;
+}
+
+.aboutBenefits ul li {
+    font-size: 1.2rem;
+    color: var(--bg-);
 }
