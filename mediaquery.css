@@ -29,6 +29,16 @@
     .importantLinks {
         padding: 80px 3rem;
     }
+
+
+    .buySection {
+        padding: 80px 3rem;
+    }
+
+    .BuyHub {
+        justify-content: center;
+        gap: 40px;
+    }
 }
 
 
@@ -297,6 +307,17 @@
         padding: 15px;
     }
 
+    .buySection {
+        padding: 60px 2rem;
+    }
+
+    .buyHeader h1 {
+        font-size: 1.5rem;
+    }
+
+    .buyHeader p {
+        font-size: 1rem;
+    }
 
 }
 
@@ -555,6 +576,27 @@
     }
 
     .flip-card-back a {
+        font-size: .7rem;
+    }
+
+    .BuyHub {
+        width: 100%;
+    }
+
+    .buySection {
+        padding: 50px 1rem;
+    }
+
+    .card {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .buyHeader h1 {
+        font-size: 1.3rem;
+    }
+
+    .buyHeader p {
         font-size: .7rem;
     }
 
