@@ -18,7 +18,7 @@ ham.addEventListener("click", () => {
 
 
 // loader
-let randomTime = Math.floor(Math.random() * 3000) + 3000;
+let randomTime = Math.floor(Math.random() * 3000) + 1000;
 console.log(randomTime);
 
 let loaderPage = document.querySelector('.loader');

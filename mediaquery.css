@@ -25,6 +25,10 @@
     .mediaContainer {
         padding: 80px 3rem;
     }
+
+    .importantLinks {
+        padding: 80px 3rem;
+    }
 }
 
 
@@ -280,6 +284,16 @@
         gap: 30px;
     }
 
+    .importantLinks {
+        padding: 60px 2rem;
+    }
+
+    .flip-card {
+        width: 200px;
+        height: 200px;
+    }
+
+
 }
 
 
@@ -525,6 +539,19 @@
 
     .midTrans {
         transform: translateX(0px);
+    }
+
+    .importantLinks {
+        padding: 60px 1rem;
+    }
+
+    .flip-card {
+        width: 100px;
+        height: 100px;
+    }
+
+    .flip-card-back a {
+        font-size: .7rem;
     }
 
 

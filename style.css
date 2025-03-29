@@ -7,7 +7,7 @@
 }
 
 :root {
-    --bg-: #ffffff;
+    --bg-: #f8fcff;
     --color-: #000000;
     --transition-: .2s all;
     --hover-color-: #1e5079;
@@ -581,4 +581,79 @@ body {
 
 .midTrans {
     transform: translateX(100px);
+}
+
+
+/* importantLinks */
+
+.importantLinks {
+    width: 100%;
+    padding: 80px 10rem;
+    overflow-x: hidden;
+}
+
+.linksBoxes {
+    margin-top: 40px;
+}
+
+.linksRow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.367);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+}
+
+.flip-card-front {
+    padding: 30px;
+}
+
+.flip-card-back {
+    background-color: var(--purpose-bg-);
+    transform: rotateY(180deg);
+}
+
+.flip-card-back a {
+    color: var(--bg-);
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.flip-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
