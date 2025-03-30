@@ -47,6 +47,23 @@
     .benefitContainer {
         padding: 0px 3rem;
     }
+
+    .footerContainer {
+        padding: 50px 3rem;
+    }
+
+    .poster {
+        padding: 50px 3rem;
+    }
+
+
+    .decOverView {
+        padding: 30px 3rem;
+    }
+
+    table {
+        padding: 30px 3rem;
+    }
 }
 
 
@@ -379,7 +396,77 @@
         padding: 60px 0;
     }
 
+    .footerContainer {
+        padding: 50px 2rem;
+    }
 
+    .mainLogo {
+        height: 50px;
+    }
+
+    .skillIndia {
+        height: 50px;
+        margin: 0 30px;
+    }
+
+    .ms {
+        height: 50px;
+    }
+
+    .fMain ul li a {
+        font-size: .9rem;
+    }
+
+    .addFooter span {
+        font-size: .9rem;
+    }
+
+    .addFooter p {
+        font-size: .8rem;
+    }
+
+    /* course page */
+    .location span {
+        font-size: .8rem;
+    }
+
+    .poster {
+        padding: 50px 2rem;
+    }
+
+    .posterWrapper {
+        height: 500px;
+    }
+
+    .decOverView {
+        padding: 30px 2rem;
+    }
+
+    .decOverView p {
+        font-size: .9rem;
+    }
+
+    .duration {
+        font-size: .8rem;
+    }
+
+    .structureHeading {
+        margin-top: 30px;
+    }
+
+    table {
+        padding: 30px 2rem;
+    }
+
+    .table-wrapper {
+        overflow-x: scroll;
+    }
+
+    .t-head,
+    .t-data {
+        padding: 10px 15px;
+        font-size: .9rem;
+    }
 
 }
 
@@ -717,8 +804,8 @@
     }
 
     .brand-card-slide img {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
 
@@ -726,4 +813,110 @@
         font-size: 1.2rem;
     }
 
+    .partnerLogos {
+        margin-top: 30px;
+    }
+
+    .footerContainer {
+        padding: 50px 1rem;
+    }
+
+
+    .mainLogo {
+        height: 30px;
+    }
+
+    .skillIndia {
+        height: 30px;
+        margin: 0 20px;
+    }
+
+    .ms {
+        height: 30px;
+    }
+
+    .fMain ul li a {
+        font-size: .7rem;
+    }
+
+    .addFooter span {
+        font-size: .8rem;
+    }
+
+    .addFooter p {
+        font-size: .7rem;
+        text-align: center;
+    }
+
+    .addFooter {
+        padding: 12px 10px;
+    }
+
+    .fMain ul {
+        gap: 20px;
+    }
+
+    .fMain {
+        padding: 12px 10px;
+    }
+
+    .copyright {
+        padding: 10px 1rem;
+    }
+
+    .copyWrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .textCopy span {
+        font-size: .7rem;
+    }
+
+    .sLinks {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sLinks a {
+        font-size: .7rem;
+    }
+
+    .location span {
+        font-size: .7rem;
+    }
+
+
+    .poster {
+        padding: 40px 1rem;
+    }
+
+    .posterWrapper {
+        height: 300px;
+    }
+
+    .decOverView {
+        padding: 30px 1rem;
+    }
+
+    .decOverView p {
+        font-size: .7rem;
+    }
+
+    .duration {
+        font-size: .7rem;
+    }
+
+
+    .table {
+        padding: 0px 1rem;
+        margin-bottom: 20px;
+    }
+
+    .t-head,
+    .t-data {
+        padding: 10px 10px;
+        font-size: .7rem;
+    }
 }

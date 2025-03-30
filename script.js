@@ -61,3 +61,9 @@ window.addEventListener("mousemove", function (dets) {
     })
 
 })
+
+$(document).ready(() => {
+    $(".action").click(() => {
+        alert("currently not avilable")
+    })
+})
