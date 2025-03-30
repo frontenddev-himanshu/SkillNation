@@ -367,6 +367,18 @@
         padding: 50px;
     }
 
+    .partnerHeader h2 {
+        font-size: 1.5rem;
+    }
+
+    .brand-card-slide img {
+        height: 80px;
+    }
+
+    .partnerContainer {
+        padding: 60px 0;
+    }
+
 
 
 }
@@ -699,5 +711,19 @@
         padding: 50px;
     }
 
+
+    .partnerContainer {
+        padding: 50px 0;
+    }
+
+    .brand-card-slide img {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .partnerHeader h2 {
+        font-size: 1.2rem;
+    }
 
 }
